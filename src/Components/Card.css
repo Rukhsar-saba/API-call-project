@@ -1,0 +1,102 @@
+/* Navbar design */
+.completecontainer {
+  width: 98%;
+  height: auto;
+}
+.loading {
+  font-size: 2rem;
+  color: green;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.navContainer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 2rem;
+}
+.navContainer button {
+  padding: 0.8rem;
+  margin: 0.1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 0;
+  background-color: white;
+}
+.navContainer .active {
+  color: red;
+}
+.navContainer button:hover {
+  cursor: pointer;
+  color: rgb(212, 41, 41);
+  /* background-color: rgb(247, 61, 61); */
+  /* border-radius: 5px; */
+}
+
+/* navBar design end */
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.cardContainer {
+  width: 18rem;
+  height: 30rem;
+  padding: 2rem 0rem;
+  margin: 0.8rem 0.3rem;
+  background-color: gainsboro;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  padding-bottom: 1rem;
+}
+h3 {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item1 img {
+  height: 9rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+.item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 2.5rem;
+  font-size: 1.1rem;
+}
+.item2 p {
+  padding: 0.4rem;
+}
+.item2 p .iconpost {
+  color: orange;
+}
+.item2 p .iconstar {
+  color: gold;
+}
+.item2 p .iconfork {
+  color: rgb(57, 68, 219);
+}
+.item2 p .iconissue {
+  color: rgb(184, 52, 52);
+}
+.errormsg {
+  color: red;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+/* .navContainer li .active {
+  color: red;
+} */
